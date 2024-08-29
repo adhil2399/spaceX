@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    display: block;
+    width: 70%;
+    height: auto;
+    fill: azure;
+}
+
+.navbar-toggler-icon {
+    padding-left: 500px;
+
+}
+
+
+
+@media screen and (max-width:990px) {
+    .navbar-brand {
+        width: 50%;
+        height: 15%;
+        
+    }
+
+    .navbar-toggler-icon {
+        width: 2em;
+        height: 2em;
+        
+    }
+}
+
+/* video  */
+
+video {
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+
+
+}
+
+
+
+
+
+.pa1 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.6em;
+    padding-top: 6em;
+    padding-left: 2.4em;
+    position: absolute;
+    top: 200px;
+
+
+
+
+}
+
+.pa2 {
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    padding-left: 1.2em;
+    border-top: 8em;
+    position: absolute;
+    top: 395px;
+
+
+
+}
+
+.but1 {
+    margin-left: 4em;
+    border-top: 8em;
+    margin-left: 4em;
+    position: absolute;
+    top: 485px;
+    left: 0;
+
+
+}
+
+/* image-2 */
+
+.image2 {
+    background-image: url(img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+
+.pb1 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding-top: 13em;
+    padding-left: 2.5em;
+}
+
+.pb2 {
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    padding-left: 1.2em;
+    border-top: 5em;
+}
+
+.but2 {
+    margin-left: 4em;
+}
+
+/* image-3 */
+
+.image3 {
+    background-image: url(img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+
+.pc1 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.6em;
+    padding-top: 9em;
+    padding-left: 2.3em;
+}
+
+.pc2 {
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    padding-left: 1.2em;
+    border-top: 5em;
+}
+
+.but3 {
+    margin-left: 4em;
+}
+
+/*image-4*/
+
+.image4 {
+    background-image: url(img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+
+.pd1 {
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 5em;
+    padding-left: 2em;
+}
+
+.pd2 {
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    padding-left: 1.2em;
+    border-top: 5em;
+}
+
+.but4 {
+    margin-left: 4em;
+}
+
+
+/*footer*/
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.footer ul li {
+    color: white;
+    display: flex;
+    display: inline-flex;
+    padding-inline: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+/*footer-end*/
+
+@media screen and (max-width:900px) {
+    .pa1 {
+        position: absolute;
+        top: 30em;
+        left: .4em;
+        font-size: 15px;
+        font-weight: 200;
+        padding-left: 2.3em;
+    }
+
+    .pa2 {
+        position: absolute;
+        top: 17.5em;
+        font-size: 2em;
+    }
+
+    .but1 {
+        position: absolute;
+        top: 39em;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .pb1 {
+        position: relative;
+        top: 17em;
+        font-size: 15px;
+        padding-left: 2.8em;
+        font-weight: 200;
+    }
+
+    .pb2 {
+        position: relative;
+        top: 7.5em;
+        font-size: 2em;
+    }
+
+    .but2 {
+        position: relative;
+        top: 15em;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .pc1 {
+        position: relative;
+        top: 150px;
+        font-size: 25px;
+    }
+
+    .pc1 {
+        position: relative;
+        top: 5em;
+        font-size: 2em;
+        padding-left: 2em;
+        font-weight: 200;
+
+    }
+
+    .pc2 {
+        position: relative;
+        top: 5em;
+        font-size: 2em;
+        padding-left: 2em;
+
+    }
+
+    .but3 {
+        position: relative;
+        top: 10em;
+
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    .pd1 {
+        position: relative;
+        top: 10em;
+        font-size: 2em;
+        padding-left: 2em;
+    }
+
+    .pd2 {
+        position: relative;
+        top: 10em;
+        font-size: 2em;
+        padding-left: 2em;
+    }
+
+    .but4 {
+        position: relative;
+        top: 20em;
+    }
+}
